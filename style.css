@@ -1,0 +1,67 @@
+@font-face {
+    font-family: texto;
+    src: url(./nexa.zip);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min.height: 100%;
+    font-family: texto;
+    }
+
+/*Header*/
+
+header {
+    padding: 1.5rem 0 0 1rem;
+}
+
+.logo {
+    width: 4rem;
+} 
+
+.logo img{
+height: 100%;
+width: 100%;
+}
+
+/*Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  /*Section 1 */
+
+.section1 {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}  
+
+.imageSection1 {
+    width: 100%;
+}
+
+.imageSection1 {
+    width: 100%;
+}
+
+/* Section 2 */
+
+.section2 {
+    background-color: rgb(6, 6, 89);
+    color: #fff;
+    margin-top: 2rem;
+}
